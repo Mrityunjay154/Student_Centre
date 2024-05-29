@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+.heading img{
+    border-radius: 5px;
+    width: 1244px;
+    height: 150px;
+}
+body{
+    border: 5px;
+    background-image: url(desktop-wallpaper-backgrounds-for-login-page-login-page.jpg);
+    background-size: cover;
+}
+.container1{
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    padding: 5px 20px 15px 20px;
+    border: 2px solid lightsalmon;
+}
+.container1 img{
+    float:left;
+    width:5%;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+}
+hr{
+    border-top: 3px dotted burlywood;
+}
+input[type="submit"]:hover{
+    background-color: rgba(163, 250, 227, 0.461);
+}
+input[type="submit"]{
+    width: 100%;
+    background-color: aquamarine;
+    font-style:normal;
+    font-size: larger;
+    color:black;
+    padding: 12px 12px;
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="text"],
+input[type="password"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgb(231, 184, 150);
+    border-radius: 8px;
+    margin: 10px;
+}
+p{
+    font-size: 150%;
+    color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.submit{
+}
